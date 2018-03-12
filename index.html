@@ -107,8 +107,8 @@
 	<header>	
 	<!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#">
+            <div class="container"> <!-- align-items-center"> -->
+                <a class="navbar-brand align-self-center" href="#">
 				<!-- small logo -->
 					<p id="icon" style="text-shadow: rgb(48, 117, 165) 0px 0px 0px, rgb(49, 121, 170) 1px 1px 0px, rgb(51, 125, 176) 2px 2px 0px, rgb(53, 129, 182) 3px 3px 0px, rgb(54, 134, 188) 4px 4px 0px, rgb(56, 138, 194) 5px 5px 0px, rgb(58, 142, 200) 6px 6px 0px, rgb(60, 146, 206) 7px 7px 0px, rgb(61, 150, 212) 8px 8px 0px, rgb(63, 154, 217) 9px 9px 0px, rgb(65, 159, 223) 10px 10px 0px, rgb(66, 163, 229) 11px 11px 0px; font-size: 35px; color: rgb(255, 255, 255); height: 50px; width: 200px; line-height: 50px; border-radius: 0%; text-align: center; background-color: rgb(54, 161, 255);"><img src="img/main_logo_white.png", style="height: 40px; margin-bottom: 5px;" > Ф Т Ф </p> 
 				<!-- small logo -->
@@ -116,7 +116,7 @@
                 <button class="navbar-toggler float-sm-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse align-self-center" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto smooth-scroll"> 
                         <li class="nav-item btn-group">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Обучение<span class="sr-only">(current)</span></a>
@@ -744,70 +744,51 @@
 
         <!--Footer links-->
         <div class="container-fluid">
+			<div class="row mt-3">
+				<div class="col-sm text-left">
+					<h5 class="title mb-3"><strong>Полезные ссылки</strong></h5>
+				</div>
+			</div>
             <div class="row mt-3">
                 <!--First column-->
-                <div class="col-lg-3 col-md-6 ml-auto">
+                <div class="col-lg-6 col-md-6 ml-auto">
+					<div class="row">
+						<div class="col-5">
+							<div class="view">
+								<img src="img/MEPhI_Logo2014_ru.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-7">
+							<ul>
+								<li class="mb-3">
+									<a href="http://www.mephi.ru" target="_blank"><strong>НИЯУ МИФИ</strong></a>
+								</li>
+								<li>
+									<a href="http://admission.mephi.ru" target="_blank"><strong>Приемная комиссия</strong></a>
+								</li>
+							</ul>
+						</div>
+					</div>
                     <!--<h5 class="title mb-3"><strong>Тут штота будет</strong></h5>
                     <p>счемта</p>-->
                 </div>
                 <!--/.First column-->
+                
                 <hr class="w-100 clearfix d-sm-none">
                 <!--Second column-->
-                <div class="col-lg-2 col-md-6 ml-auto">
-                    <!--<h5 class="title mb-3"><strong>First column</strong></h5>-->
-                    <!--<ul>
-                        <li>
-                            <a href="#!">раз</a>
-                        </li>
-                        <li>
-                            <a href="#!">два</a>
-                        </li>
-                        <li>
-                            <a href="#!">??!!</a>
-                        </li>
-                        <li>
-                            <a href="#!">PROFIT!!!</a>
-                        </li>
-                    </ul> -->
+                <div class="col-lg-6 col-md-6 ml-auto">
+					<div class="row">
+						<div class="col-7">
+							<a href="htp://www.vniia.ru" target="_blank">ФГУП ВНИИА</a>
+						</div>
+						<div class="col-5">
+							<div class="view">
+								<img src="img/vniia_white.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
                 </div>
                 <!--/.Second column-->
-                <hr class="w-100 clearfix d-sm-none">
-                <!--Third column-->
-                <div class="col-lg-2 col-md-6 ml-auto">
-                    <!--<h5 class="title mb-3"><strong>Second column</strong></h5>
-                    <ul>
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
-                    </ul> -->
-                </div>
-                <!--/.Third column-->
-                <hr class="w-100 clearfix d-sm-none">
-                <!--Fourth column-->
-                <div class="col-lg-2 col-md-6 ml-auto">
-                    <h5 class="title mb-3"><strong>Полезные ссылки</strong></h5>
-                    <ul>
-                        <li>
-                            <a href="http://www.mephi.ru" target="_blank">НИЯУ МИФИ</a>
-                        </li>
-                        <li>
-                            <a href="http://admission.mephi.ru" target="_blank">Приемная комиссия</a>
-                        </li>
-                        <li>
-                            <a href="htp://www.vniia.ru" target="_blank">ФГУП ВНИИА</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Fourth column-->
             </div>
         </div>
         <!--/.Footer links-->
